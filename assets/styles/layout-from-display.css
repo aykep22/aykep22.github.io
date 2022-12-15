@@ -1,0 +1,78 @@
+.p1{
+    /* default is display: block; */
+    display: inline;
+    border: 1px solid black;
+}
+
+.p2{
+    /* inline won't accept width and height */
+    display: inline-block;
+    background-color: blue;
+    color: white;
+    width: 800px;
+    height: 50px;
+    border: 1px solid brown;
+}
+
+.p3{
+    /* does not appear on the browser but exists in the source. Used with Javascript */
+    display: none;
+}
+
+/* button{ */
+    /* default is display: inline; */
+    /* display: block; */
+    /* margin: 5px; */
+/* } */
+
+#btn1{
+    display: block;
+    width: 80px;
+    height: 40px;
+}
+
+#btn2{
+    display: block;
+}
+
+#btn3{
+    display: block;
+}
+
+/* z-index */
+.main-div{
+    position: absolute;
+    border: 2px solid black;
+    width: 300px;
+    height: 300px;
+}
+
+.div1{
+    position: absolute;
+    background-color: tomato;
+    width: 150px;
+    height: 150px;
+    z-index: 1;
+}
+
+.div2{
+    position: absolute;
+    background-color: brown;
+    color:white;
+    width: 150px;
+    height: 150px;
+    top: 20px;
+    left: 15px;
+    z-index: 3;
+}
+
+.div3{
+    position: absolute;
+    background-color: green;
+    color:white;
+    width: 150px;
+    height: 150px;
+    top: 30px;
+    left: 30px;
+    z-index: -1;
+}

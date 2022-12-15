@@ -1,0 +1,51 @@
+body{
+    background-color: black;
+}
+
+#register-form{
+    background-color: white;
+    width: 60%;
+    padding: 0px 10px 20px;
+    /* height: 90%; */
+    /* position: relative; */
+}
+
+.label{
+    font-weight: bold;
+    display: block;
+}
+
+#email{
+    background-color: gainsboro;
+    color: gray;
+    width: 100%;
+    border: none;
+    padding: 10px 0px;
+    text-indent: 10px;
+}
+
+#password{
+    background-color: gainsboro;
+    color: gray;
+    width: 100%;
+    border: none;
+    padding: 10px 0px;
+    text-indent: 10px;
+}
+
+#submit{
+    background-color: green;
+    color: white;
+    width: 100%;
+    border: none;
+    padding: 10px 0px;
+    text-align: center;
+}
+
+#footer{
+    background-color: rgba(220, 220, 220, 0.908);
+    text-align: center;
+    width: 60%;
+    font-size: 90%;
+    padding: 10px 10px;
+}

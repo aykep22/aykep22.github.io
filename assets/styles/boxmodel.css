@@ -1,0 +1,41 @@
+*{
+    font-family: 'Times New Roman', Times, serif;
+    /* box-sizing will adjust the box size when adding padding, margin, and border */
+    box-sizing: border-box;
+}
+
+.box1, .box2, .box3{
+    border: 1px solid black;
+    height: 400px;
+    width: 300px;
+    /* overflow auto can judge whether the element need scroll bars */
+    overflow: auto;
+    /* margin-bottom: 5px;
+    margin-left: auto;
+    margin-right: auto; */
+    margin: 3px auto;
+
+}
+
+.box1{
+    padding: 20px;
+    background-color: red;
+    float: right;
+}
+
+.box2{
+    /* box-shadow: 5px 10px 0px 0px yellow; */
+    background-color: green;
+    float: right;
+}
+
+.box3{
+    /* box-shadow: 5px 10px 0px 0px yellow; */
+    background-color: yellow;
+    float: right;
+}
+
+p{
+    clear: right;
+    /* or clear:both; */
+}
