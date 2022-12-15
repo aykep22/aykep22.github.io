@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Basics</title>
+    <!--external stylesheet, 3rd priority-->
+    <link rel="stylesheet" href="assets/styles/styles.css">
+
+
+    <!--internal stylesheet, 2nd priority-->
+    <style>
+        h1{
+            color:blue;
+        }
+    </style>
+
+</head>
+<body>
+    <!--inline design, ignore other stylesheet, 1st priority-->
+   <h1 style="color:red;font-style:italic;">Heading 1</h1> 
+   <h1>Heading 2</h1> 
+</body>
+</html>
